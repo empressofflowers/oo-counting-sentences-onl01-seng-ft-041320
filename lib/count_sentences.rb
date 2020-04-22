@@ -15,7 +15,8 @@ class String
   end
 
   def count_sentences
-    binding.pry    
+    #binding.pry
+    self.scan(/.?!/).map { |e|  }
   end
 
 end

@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-    self.split.count.delete_if(|wor|"")
+    self.split.count.delete_if(|word|"")
   end
 end
